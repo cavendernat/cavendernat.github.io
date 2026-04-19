@@ -1,45 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="top-nav">
-        <a href="index.html" class="active">Portfolio</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-
-    <main class="container">
-      <h1>Portfolio</h1>
-      <p class="intro">
-        Welcome to my portfolio. Add your project details and PDF links below.
-      </p>
-
-      <section class="card-grid">
-        <article class="card">
-          <h2>Project 1</h2>
-          <p>Short description of your project and what it solves.</p>
-          <a href="files/project-1.pdf" target="_blank" rel="noopener noreferrer">View Project PDF</a>
-        </article>
-
-        <article class="card">
-          <h2>Project 2</h2>
-          <p>Short description of your project and the tools used.</p>
-          <a href="files/project-2.pdf" target="_blank" rel="noopener noreferrer">View Project PDF</a>
-        </article>
-
-        <article class="card">
-          <h2>Project 3</h2>
-          <p>Short description of your project outcomes.</p>
-          <a href="files/project-3.pdf" target="_blank" rel="noopener noreferrer">View Project PDF</a>
-        </article>
-      </section>
-    </main>
-  </body>
-</html>
+diff --git a/index.html b/index.html
+index 8e7369092fd5f0ad7688f085a11a8315b958ce66..767e627a0ef77ddf321cc5e856edad71f909fe00 100644
+--- a/index.html
++++ b/index.html
+@@ -1,45 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>My Portfolio</title>
+-    <link rel="stylesheet" href="styles.css" />
++    <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+-    <header>
+-      <nav class="top-nav">
+-        <a href="index.html" class="active">Portfolio</a>
+-        <a href="resume.html">Resume</a>
+-        <a href="contact.html">Contact</a>
+-      </nav>
+-    </header>
+-
+     <main class="container">
+       <h1>Portfolio</h1>
+       <p class="intro">
+         Welcome to my portfolio. Add your project details and PDF links below.
+       </p>
+ 
++      <p>
++        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">View Resume (PDF)</a>
++      </p>
++
+       <section class="card-grid">
+         <article class="card">
+           <h2>Project 1</h2>
+           <p>Short description of your project and what it solves.</p>
+           <a href="files/project-1.pdf" target="_blank" rel="noopener noreferrer">View Project PDF</a>
+         </article>
+ 
+         <article class="card">
+           <h2>Project 2</h2>
+           <p>Short description of your project and the tools used.</p>
+           <a href="files/project-2.pdf" target="_blank" rel="noopener noreferrer">View Project PDF</a>
+         </article>
+ 
+         <article class="card">
+           <h2>Project 3</h2>
+           <p>Short description of your project outcomes.</p>
+           <a href="files/project-3.pdf" target="_blank" rel="noopener noreferrer">View Project PDF</a>
+         </article>
+       </section>
+     </main>
+   </body>
+ </html>
